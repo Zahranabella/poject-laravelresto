@@ -114,8 +114,7 @@
 
     <main class="form-signin w-100 m-auto">
         <form class="needs-validation" novalidate action="proses/proses_login.php" method="POST">
-            <img src="{{ asset('img/logo.jpg') }}">
-            <i class="bi bi-shop fs-1"></i>
+            <img src="{{ asset('img/logo.jpg') }}" width="50%" height="auto">
             <h1 class="h3 mb-3 fw-normal">Please Login</h1>
 
             <div class="form-floating">
@@ -142,6 +141,7 @@
             </div>
             <button class="w-100 btn btn-lg btn-light" type="submit" name="submit_validate"
                 value="abc">Login</button>
+            <p class="mt-5 mb-3 text-muted">If you don't have the account, please <button class="btn-3 btn-link">Sign-up</button></p>
         </form>
     </main>
 
