@@ -72,7 +72,6 @@
     </style>
 
     <!-- Custom styles for this template -->
-    <link href="../css/login.css" rel="stylesheet">
     <style>
         html,
         body {
@@ -141,7 +140,6 @@
             </div>
             <button class="w-100 btn btn-lg btn-primary" type="submit" name="submit_validate"
                 value="abc">Login</button>
-            <p class="mt-5 mb-3 text-muted">&copy; 2022-2023</p>
         </form>
     </main>
 
