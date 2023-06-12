@@ -15,30 +15,29 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light navbar-custom"><style>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-white navbar-custom rounded"><style>
         .navbar-custom {
-          border: 1px solid #FC6A73;
-          /* Atur properti border sesuai kebutuhan Anda */
+          border: 2px solid #FC6A73;
         }
       </style>
         <div class="container-lg">
-            <img src="{{ asset('img/logo.jpg') }}" width="10%" height="auto">
+            <img src="{{ asset('img/logo.jpg') }}" width="15%" height="auto">
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="nav">
                     <li class="nav-item"><a href="#" class="nav-link" aria-current="page">
-                            <font face="Stencil" color="black"> Home
+                            <font face="Stencil" color="black" size="5"> Home
                         </a></font>
                     </li>
                     <li class="nav-item"><a href="#" class="nav-link">
-                            <font face="Stencil" color="black"> Search
+                            <font face="Stencil" color="black" size="5"> Search
                         </a></font>
                     </li>
                     <li class="nav-item"><a href="#" class="nav-link">
-                            <font face="Stencil" color="black"> Login
+                            <font face="Stencil" color="black" size="5"> Login
                         </a></font>
                     </li>
                     <li class="nav-item"><a href="#" class="nav-link">
-                            <font face="Stencil" color="black"> Logout
+                            <font face="Stencil" color="black" size="5"> Logout
                         </a></font>
                     </li>
                 </ul>
@@ -47,7 +46,7 @@
     </nav>
 </body>
 
-<div class="col-12 mt-4">
+<div class="col-12 mt-4 rounded">
     <div class="card">
         <div class="card-header" style="background-color:#FC6A73;">
             Home
