@@ -105,7 +105,6 @@
         .form-signin button {
             background-color: #FC6A73;
             border-color: #FC6A73;
-            hover: red;
         }
     </style>
 </head>

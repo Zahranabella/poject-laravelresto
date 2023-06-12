@@ -24,3 +24,7 @@ Route::get('/login',function() {
 Route::get('/sign-up',function() {
     return view('signup');
 });
+
+Route::get('/data-reservasi',function() {
+    return view('data-reservasi');
+});
