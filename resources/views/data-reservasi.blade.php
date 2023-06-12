@@ -15,11 +15,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-white navbar-custom rounded"><style>
-        .navbar-custom {
-          border: 2px solid #FC6A73;
-        }
-      </style>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-white navbar-custom rounded">
+        <style>
+            .navbar-custom {
+                border: 2px solid #FC6A73;
+            }
+        </style>
         <div class="container-lg">
             <img src="{{ asset('img/logo.jpg') }}" width="15%" height="auto">
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -49,7 +50,16 @@
 <div class="col-12 mt-4 rounded">
     <div class="card">
         <div class="card-header" style="background-color:#FC6A73;">
-            Home
+            <font size="5">
+                Home</font>
+            <font size="5" style="padding-left: 40px;">
+                Home</font>
+            <font size="5" style="padding-left: 40px;">
+                Home</font>
+            <font size="5" style="padding-left: 40px;">
+                Home</font>
+            <font size="5" style="padding-left: 40px;">
+                Home</font>
         </div>
         <div class="card-body">
             <h5 class="card-title">Ini Adalah Bagian Home</h5>
