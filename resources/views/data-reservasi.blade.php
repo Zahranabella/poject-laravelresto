@@ -26,19 +26,19 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="nav">
                     <li class="nav-item"><a href="#" class="nav-link" aria-current="page">
-                            <font face="Stencil" color="black" size="5"> Home
+                            <font face="Oswald" color="black" size="5"> Reservation Data
                         </a></font>
                     </li>
                     <li class="nav-item"><a href="#" class="nav-link">
-                            <font face="Stencil" color="black" size="5"> Search
+                            <font face="Source Sans Pro" color="black" size="5"> Reservation
                         </a></font>
                     </li>
                     <li class="nav-item"><a href="#" class="nav-link">
-                            <font face="Stencil" color="black" size="5"> Login
+                            <font face="Lato" color="black" size="5"> Info
                         </a></font>
                     </li>
                     <li class="nav-item"><a href="#" class="nav-link">
-                            <font face="Stencil" color="black" size="5"> Logout
+                            <font face="Raleway" color="black" size="5"> Profile
                         </a></font>
                     </li>
                 </ul>
@@ -50,23 +50,22 @@
 <div class="col-12 mt-4 rounded">
     <div class="card">
         <div class="card-header" style="background-color:#FC6A73;">
-            <font size="5">
-                Home</font>
-            <font size="5" style="padding-left: 40px;">
-                Home</font>
-            <font size="5" style="padding-left: 40px;">
-                Home</font>
-            <font size="5" style="padding-left: 40px;">
-                Home</font>
-            <font size="5" style="padding-left: 40px;">
-                Home</font>
+            <font size="5" style="padding-left: 50px;">
+                Name</font>
+            <font size="5" style="padding-left: 180px;">
+                Email</font>
+            <font size="5" style="padding-left: 180px;">
+                Date</font>
+            <font size="5" style="padding-left: 180px;">
+                Table</font>
+            <font size="5" style="padding-left: 180px;">
+                Guest</font>
+            <font size="5" style="padding-left: 180px;">
+                Action</font>
         </div>
         <div class="card-body">
-            <h5 class="card-title">Ini Adalah Bagian Home</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content. Lorem ipsum
-                dolor sit amet harum veritatis aliquam cum error beatae, at recusandae ducimus tenetur quod
-                reprehenderit iste laudantium nesciunt, natus minus.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-warning me-1" data-bs-toggle="modal" data-bs-target="#ModalEdit" style="float: right;">Edit</a>
+            <a href="#" class="btn btn-danger me-1" data-bs-toggle="modal" data-bs-target="#ModalDelete" style="float: right;">Delete</a>
         </div>
     </div>
 </div>
