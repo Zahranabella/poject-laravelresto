@@ -64,8 +64,10 @@
                 Action</font>
         </div>
         <div class="card-body">
-            <a href="#" class="btn btn-warning me-1" data-bs-toggle="modal" data-bs-target="#ModalEdit" style="float: right;">Edit</a>
-            <a href="#" class="btn btn-danger me-1" data-bs-toggle="modal" data-bs-target="#ModalDelete" style="float: right;">Delete</a>
+            <a href="#" class="btn btn-warning me-1" data-bs-toggle="modal" data-bs-target="#ModalEdit"
+                style="float: right;">Edit</a>
+            <a href="#" class="btn btn-danger me-1" data-bs-toggle="modal" data-bs-target="#ModalDelete"
+                style="float: right;">Delete</a>
         </div>
     </div>
 </div>
