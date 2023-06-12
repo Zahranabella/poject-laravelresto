@@ -76,8 +76,8 @@
         body {
             display: flex;
             align-items: center;
-            padding-top: 40px;
-            padding-bottom: 40px;
+            padding-top: 0px;
+            padding-bottom: 20px;
             background-color: #ffffff;
         }
 
