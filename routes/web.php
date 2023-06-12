@@ -21,6 +21,6 @@ Route::get('/login',function() {
     return view('login');
 });
 
-Route::get('/reservasi',function() {
+Route::get('/sign-in',function() {
     return view('login');
 });
