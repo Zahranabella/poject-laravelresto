@@ -47,8 +47,8 @@
     </nav>
 </body>
 
-<div class="col-12 mt-4 rounded">
-    <div class="card">
+<div class="col-12 mt-4 rounded" >
+    <div class="card" style="border-color: #FC6A73">
         <div class="card-header" style="background-color:#FC6A73;">
             <font size="5" style="padding-left: 50px;">
                 Name</font>
@@ -62,6 +62,18 @@
                 Guest</font>
             <font size="5" style="padding-left: 180px;">
                 Action</font>
+        </div>
+        <div class="card-body">
+            <a href="#" class="btn btn-danger me-1" data-bs-toggle="modal" data-bs-target="#ModalDelete"
+                style="float: right;">Delete</a>
+            <a href="#" class="btn btn-warning me-1" data-bs-toggle="modal" data-bs-target="#ModalEdit"
+                style="float: right;">Edit</a>
+        </div>
+        <div class="card-body">
+            <a href="#" class="btn btn-danger me-1" data-bs-toggle="modal" data-bs-target="#ModalDelete"
+                style="float: right;">Delete</a>
+            <a href="#" class="btn btn-warning me-1" data-bs-toggle="modal" data-bs-target="#ModalEdit"
+                style="float: right;">Edit</a>
         </div>
         <div class="card-body">
             <a href="#" class="btn btn-danger me-1" data-bs-toggle="modal" data-bs-target="#ModalDelete"
