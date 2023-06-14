@@ -28,3 +28,6 @@ Route::get('/sign-up',function() {
 Route::get('/data-reservasi',function() {
     return view('data-reservasi');
 });
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
