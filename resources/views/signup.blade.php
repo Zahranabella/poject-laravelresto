@@ -104,6 +104,13 @@
             border-color : #FC6A73;
         }
 
+        .form-signin input[type="add"] {
+            margin-bottom: -1px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            border-color : #FC6A73;
+        }
+
         .form-signin input[type="password"] {
             margin-bottom: 10px;
             border-top-left-radius: 0;

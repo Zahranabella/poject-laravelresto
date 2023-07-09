@@ -17,9 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('/login',function() {
-//     return view('login');
-// });
+Route::get('/',function() {
+    return view('auth.login');
+})->middleware('guest');
 
 Route::get('/sign-up',function() {
     return view('signup');
@@ -32,6 +32,21 @@ Route::get('/data-reservasi',function() {
 Route::get('/reservasi',function() {
     return view('reservasi');
 });
-// Auth::routes();
 
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'showSide']);
+
+Route::post('/logout', function () {
+    Auth::logout();
+    return redirect('/login');
+})->name('logout');
+
+Route::get('/beranda',function() {
+    return view('beranda');
+});
+
+Route::get('/info',function() {
+    return view('info');
+});

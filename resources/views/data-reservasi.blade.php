@@ -13,38 +13,62 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-
+    <style>
+        /* Reset CSS */
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        
+        /* Styling Navbar */
+        .navbar {
+          background-color: #FC6A73;
+          color: #fff;
+          display: flex;
+          justify-content: space-between;
+          align-items: center; /* Mengatur vertikal align */
+          padding: 10px;
+        }
+        
+        .navbar img.logo {
+          height: 130px; /* Ubah ukuran sesuai kebutuhan */
+          margin-right: 30px; /* Jarak antara logo dan teks */
+        }
+        
+        .navbar ul {
+          list-style: none;
+          display: flex;
+        }
+        
+        .navbar li {
+          margin-right: 10px;
+        }
+        
+        .navbar li a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 20px;
+          padding: 5px 30px;
+          border-radius: 5px;
+        }
+        
+        .navbar li a:hover {
+          background-color: #fff;
+          color: #333;
+        }
+      </style>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-white navbar-custom rounded">
-        <style>
-            .navbar-custom {
-                border: 2px solid #FC6A73;
-            }
-        </style>
-        <div class="container-lg">
-            <img src="{{ asset('img/logo.jpg') }}" width="15%" height="auto">
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="nav">
-                    <li class="nav-item"><a href="#" class="nav-link" aria-current="page">
-                            <font face="Oswald" color="black" size="5"> Reservation Data
-                        </a></font>
-                    </li>
-                    <li class="nav-item"><a href="#" class="nav-link">
-                            <font face="Source Sans Pro" color="black" size="5"> Reservation
-                        </a></font>
-                    </li>
-                    <li class="nav-item"><a href="#" class="nav-link">
-                            <font face="Lato" color="black" size="5"> Info
-                        </a></font>
-                    </li>
-                    <li class="nav-item"><a href="#" class="nav-link">
-                            <font face="Raleway" color="black" size="5"> Profile
-                        </a></font>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div class="navbar">
+        <img src="img/logo.jpg" alt="Logo" class="logo">
+        <ul>
+          <li><a href="data-reservasi">Reservation Data</a></li>
+          <li><a href="reservasi">Reservation</a></li>
+          <li><a href="info">Info</a></li>
+          <li><a href="#">Status</a></li>
+        </ul>
+      </div>
+   
 </body>
 
 <div class="col-12 mt-4 rounded" >

@@ -128,7 +128,7 @@
 
 <body class="text-center">
     <main class="form-signin w-100 m-auto">
-        <form class="needs-validation" novalidate action="proses/proses_login.php" method="POST">
+        <form method="POST" action="{{ route('login') }}">
             <img src="{{ asset('img/logo.jpg') }}" width="50%" height="auto">
             <h1 class="h3 mb-3 fw-normal">Make your reservation!</h1>
 
